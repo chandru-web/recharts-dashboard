@@ -1,0 +1,39 @@
+.vaccination-by-age-container {
+  background-color: #1c1c2b;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.vaccination-by-age {
+  color: #fff;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .vaccination-by-age {
+    font-size: 22px;
+  }
+
+  .vaccination-by-age-container {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .vaccination-by-age {
+    font-size: 18px;
+  }
+
+  .vaccination-by-age-container {
+    padding: 10px;
+  }
+}

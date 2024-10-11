@@ -1,0 +1,38 @@
+.vaccination-by-gender-container {
+  background-color: #1c1c2b;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.vaccination-by-gender {
+  color: #fff;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .vaccination-by-gender {
+    font-size: 22px;
+  }
+
+  .vaccination-by-gender-container {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .vaccination-by-gender {
+    font-size: 18px;
+  }
+
+  .vaccination-by-gender-container {
+    padding: 10px;
+  }
+}
